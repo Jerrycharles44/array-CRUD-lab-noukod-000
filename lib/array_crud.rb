@@ -6,9 +6,8 @@ def create_an_array
   four=["Jimmy", "Jerry", "Andy", "Billy"]
 end
 
-def add_element_to_end_of_array(four, element)
-  four=["Jimmy", "Jerry", "Andy", "Billy"]
-  four.push("element")
+def add_element_to_end_of_array(array, element)
+  array.push("element")
 end
 
 def add_element_to_start_of_array(array, element)
